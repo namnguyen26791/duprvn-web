@@ -1,0 +1,19 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "VT8U4DF9LQ.com.dupr.vn",
+                "paths": [
+                    "/",
+                    "/list-tournaments*",
+                    "/detail-tournament/*",
+                    "/list-users*",
+                    "/profile-user/*",
+                    "/profile",
+                    "*"
+                ]
+            }
+        ]
+    }
+}
