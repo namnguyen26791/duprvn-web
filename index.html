@@ -40,6 +40,19 @@
 ">
   <meta name="twitter:image" content="https://dupr.com.vn/logo.png">
   <meta name="twitter:url" content="https://dupr.com.vn">
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+  <script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(async function (OneSignal) {
+      await OneSignal.init({
+        appId: "c6e6e766-9632-4bc9-a2fd-a291188b17ec",
+        safari_web_id: "web.onesignal.auto.18c45a69-7bf7-46f8-9483-0a7df130c3b6",
+        notifyButton: {
+          enable: true,
+        },
+      });
+    });
+  </script>
   <!-- built styles file will be auto injected -->
   <script type="module" crossorigin src="/assets/index.js"></script>
   <link rel="stylesheet" href="/assets/index.css">
